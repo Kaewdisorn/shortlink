@@ -35,6 +35,11 @@
 ## ⚙️ Phase 3: Backend (NestJS)
 
 - [x] Initialize NestJS project in `/backend`
+- [x] Set up clean architecture folder structure
+  - [x] Create `modules/url` with domain/application/infrastructure/presentation layers
+  - [x] Create `shared` folder for config/utils/interceptors
+- [x] Create basic URL module and controller
+- [x] Test GET endpoint (Hello World)
 - [ ] Install dependencies: `@nestjs/typeorm`, `pg`, `typeorm`, `nanoid`
 - [ ] Set up PostgreSQL connection (TypeORM)
 - [ ] Create environment configuration (.env)
