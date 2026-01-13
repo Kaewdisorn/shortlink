@@ -10,10 +10,10 @@
 
 ## 📁 Phase 1: Monorepo Setup
 
-- [ ] Create `/frontend` and `/backend` folders
+- [x] Create `/frontend` and `/backend` folders
 - [ ] Initialize root `package.json` with workspace configuration
 - [ ] Add root scripts: `dev:all`, `build:all`, `test:all`
-- [ ] Set up `.gitignore` for both projects
+- [x] Set up root `.gitignore` for monorepo
 - [ ] Configure TypeScript for monorepo
 
 ---
@@ -34,7 +34,7 @@
 
 ## ⚙️ Phase 3: Backend (NestJS)
 
-- [ ] Initialize NestJS project in `/backend`
+- [x] Initialize NestJS project in `/backend`
 - [ ] Install dependencies: `@nestjs/typeorm`, `pg`, `typeorm`, `nanoid`
 - [ ] Set up PostgreSQL connection (TypeORM)
 - [ ] Create environment configuration (.env)
